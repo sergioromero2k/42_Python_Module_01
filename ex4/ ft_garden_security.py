@@ -48,9 +48,9 @@ def main():
     plant = SecurePlant("Rose", 25, 30)
     plant.set_height(25)
     plant.set_age(30)
-    print("\n")
+    print("")
     plant.set_height(-5)
-    print("\n")
+    print("")
     print(plant.get_info())
 
 

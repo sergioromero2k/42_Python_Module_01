@@ -172,7 +172,6 @@ def main():
 
     print(f"Height validation test: {GardenManager.validate_height(rose.height)}")
 
-    # Scores
     scores = manager.stats.garden_score()
     print(
         f"Garden scores - Alice: {scores[Plant] + scores[FloweringPlant] + scores[PrizeFlower]}, Bob: 0"
